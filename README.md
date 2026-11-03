@@ -43,6 +43,12 @@ adimughal@github:~$ whoami
 ### `$ tail -f activity.log`
 
 <!--START_SECTION:activity-->
+```bash
+▸ pushed 1 commit(s) to segregator
+▸ pushed 1 commit(s) to ownerbase-app
+▸ pushed 1 commit(s) to reops
+▸ pushed 1 commit(s) to properties-hub
+```
 <!--END_SECTION:activity-->
 
 ### `$ ./snake --eat contributions`
