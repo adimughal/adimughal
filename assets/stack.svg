@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210">
+  <style>text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:14px;fill:#c9d1d9}.a{fill:#d29922}.p{fill:#3fb950}</style>
+  <rect x="1" y="1" width="898" height="208" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="34" class="p">$ cat stack.yml</text>
+  <text x="24" y="68"><tspan class="a">frontend:  </tspan> React · Next.js · Tailwind CSS</text>
+  <text x="24" y="96"><tspan class="a">backend:   </tspan> Node.js · Prisma · PostgreSQL · Supabase</text>
+  <text x="24" y="124"><tspan class="a">ai/auto:   </tspan> n8n · voice agents · OpenAI · WhatsApp API</text>
+  <text x="24" y="152"><tspan class="a">growth:    </tspan> Meta Ads · Lead Ads · CRM</text>
+  <text x="24" y="180"><tspan class="a">devops:    </tspan> Docker · Vercel · GitHub Actions</text>
+</svg>

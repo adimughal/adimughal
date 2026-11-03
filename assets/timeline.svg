@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <style>text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:14px;fill:#c9d1d9}.y{fill:#3fb950;font-weight:700}.mu{fill:#8b949e}</style>
+  <rect x="1" y="1" width="898" height="198" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="34" fill="#3fb950">$ git log --journey --oneline</text>
+  <line x1="40" y1="56" x2="40" y2="176" stroke="#30363d" stroke-width="2"/>
+  <circle cx="40" cy="64" r="6" fill="#3fb950"/><text x="60" y="69"><tspan class="y">2026</tspan>  OwnerBase · Reops · wa-number · REIMS</text>
+  <circle cx="40" cy="100" r="6" fill="#3fb950"/><text x="60" y="105"><tspan class="y">2026</tspan>  Airos.PRO · Meta Ads dashboard</text>
+  <circle cx="40" cy="136" r="6" fill="#58a6ff"/><text x="60" y="141"><tspan class="y">2025</tspan>  Hafiz ERP · EstateFlow · voice agents</text>
+  <circle cx="40" cy="172" r="6" fill="#8b949e"/><text x="60" y="177"><tspan class="y">2019</tspan>  <tspan class="mu">joined GitHub</tspan></text>
+</svg>
