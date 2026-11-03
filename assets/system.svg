@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210">
   <style>
-    text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:14px;fill:#c9d1d9}
-    .p{fill:#3fb950}.k{fill:#58a6ff}.mu{fill:#8b949e}
+    text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:14px;fill:#0c2d48}
+    .p{fill:#0a7a6b}.k{fill:#1f6feb}.mu{fill:#4b6a88}
     .bar{transform-box:fill-box;transform-origin:left;animation:grow 1.2s ease-out}
     @keyframes grow{from{transform:scaleX(0)}}
   </style>
-  <rect x="1" y="1" width="439" height="208" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="439" height="208" rx="10" fill="#f3f8ff" stroke="#cfe2ff"/>
   <text x="20" y="34" class="p">$ neofetch</text>
   <text x="20" y="66"><tspan class="k">role   </tspan>   founder / engineer</text>
   <text x="20" y="92"><tspan class="k">focus  </tspan>   proptech, erp, ai</text>
@@ -13,13 +13,13 @@
   <text x="20" y="144"><tspan class="k">uptime </tspan>   7 years on github</text>
   <text x="20" y="170"><tspan class="k">commits</tspan>   45k+ this year</text>
 
-  <rect x="460" y="1" width="439" height="208" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="460" y="1" width="439" height="208" rx="10" fill="#f3f8ff" stroke="#cfe2ff"/>
   <text x="480" y="34" class="p">$ top --projects</text>
   <g>
-    <text x="480" y="66">ownerbase</text><rect x="600" y="55" width="200" height="12" rx="2" fill="#21262d"/><rect class="bar" x="600" y="55" width="200" height="12" rx="2" fill="#3fb950"/><text x="815" y="66" class="p">live</text>
-    <text x="480" y="92">hafiz-erp</text><rect x="600" y="81" width="200" height="12" rx="2" fill="#21262d"/><rect class="bar" x="600" y="81" width="180" height="12" rx="2" fill="#3fb950"/><text x="815" y="92" class="p">live</text>
-    <text x="480" y="118">airos.pro</text><rect x="600" y="107" width="200" height="12" rx="2" fill="#21262d"/><rect class="bar" x="600" y="107" width="140" height="12" rx="2" fill="#d29922"/><text x="815" y="118" fill="#d29922">beta</text>
-    <text x="480" y="144">reops</text><rect x="600" y="133" width="200" height="12" rx="2" fill="#21262d"/><rect class="bar" x="600" y="133" width="120" height="12" rx="2" fill="#d29922"/><text x="815" y="144" fill="#d29922">beta</text>
-    <text x="480" y="170">wa-number</text><rect x="600" y="159" width="200" height="12" rx="2" fill="#21262d"/><rect class="bar" x="600" y="159" width="80" height="12" rx="2" fill="#a371f7"/><text x="815" y="170" fill="#a371f7">build</text>
+    <text x="480" y="66">ownerbase</text><rect x="600" y="55" width="200" height="12" rx="2" fill="#dbe8fb"/><rect class="bar" x="600" y="55" width="200" height="12" rx="2" fill="#0a7a6b"/><text x="815" y="66" class="p">live</text>
+    <text x="480" y="92">hafiz-erp</text><rect x="600" y="81" width="200" height="12" rx="2" fill="#dbe8fb"/><rect class="bar" x="600" y="81" width="180" height="12" rx="2" fill="#0a7a6b"/><text x="815" y="92" class="p">live</text>
+    <text x="480" y="118">airos.pro</text><rect x="600" y="107" width="200" height="12" rx="2" fill="#dbe8fb"/><rect class="bar" x="600" y="107" width="140" height="12" rx="2" fill="#3b82f6"/><text x="815" y="118" fill="#3b82f6">beta</text>
+    <text x="480" y="144">reops</text><rect x="600" y="133" width="200" height="12" rx="2" fill="#dbe8fb"/><rect class="bar" x="600" y="133" width="120" height="12" rx="2" fill="#3b82f6"/><text x="815" y="144" fill="#3b82f6">beta</text>
+    <text x="480" y="170">wa-number</text><rect x="600" y="159" width="200" height="12" rx="2" fill="#dbe8fb"/><rect class="bar" x="600" y="159" width="80" height="12" rx="2" fill="#8aa8d8"/><text x="815" y="170" fill="#8aa8d8">build</text>
   </g>
 </svg>

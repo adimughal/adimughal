@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="70" viewBox="0 0 900 70">
-  <style>text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:15px;fill:#3fb950}.c{animation:b 1s step-end infinite}@keyframes b{50%{opacity:0}}</style>
-  <rect x="1" y="1" width="898" height="68" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <style>text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;font-size:15px;fill:#0a7a6b}.c{animation:b 1s step-end infinite}@keyframes b{50%{opacity:0}}</style>
+  <rect x="1" y="1" width="898" height="68" rx="10" fill="#f3f8ff" stroke="#cfe2ff"/>
   <text x="450" y="41" text-anchor="middle">adimughal@github:~$ exit · thanks for visiting</text>
-  <rect x="660" y="27" width="9" height="17" fill="#3fb950" class="c"/>
+  <rect x="660" y="27" width="9" height="17" fill="#0a7a6b" class="c"/>
 </svg>

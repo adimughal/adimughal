@@ -4,8 +4,8 @@
   <img width="100%" src="assets/banner.svg" alt="Adi Mughal — founder, full-stack engineer, automation" />
 
   <p>
-    <img src="https://komarev.com/ghpvc/?username=adimughal&color=58a6ff&style=flat-square&label=profile+views" alt="Profile views" />
-    <img src="https://img.shields.io/github/followers/adimughal?style=flat-square&color=3fb950&labelColor=0d1117" alt="Followers" />
+    <img src="https://komarev.com/ghpvc/?username=adimughal&color=1f6feb&style=flat-square&label=profile+views" alt="Profile views" />
+    <img src="https://img.shields.io/github/followers/adimughal?style=flat-square&color=1f6feb&labelColor=0c2d48" alt="Followers" />
   </p>
 </div>
 
@@ -29,7 +29,7 @@ adimughal@github:~$ whoami
 ### `$ ls ./stack`
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,prisma,postgres,supabase,docker,vercel,git,github,figma&theme=dark" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,prisma,postgres,supabase,docker,vercel,git,github,figma&theme=light" alt="Tech stack" />
 </p>
 
 <img width="100%" src="assets/stack.svg" alt="Stack by area" />
@@ -53,6 +53,6 @@ adimughal@github:~$ whoami
 
 ### `$ ./snake --eat contributions`
 
-<img width="100%" src="https://raw.githubusercontent.com/adimughal/adimughal/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+<img width="100%" src="https://raw.githubusercontent.com/adimughal/adimughal/output/snake-blue.svg" alt="Contribution snake" />
 
 <img width="100%" src="assets/footer.svg" alt="Thanks for visiting" />

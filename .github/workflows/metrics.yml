@@ -23,11 +23,6 @@ jobs:
           template: classic
           base: header, activity, community, repositories
           config_display: large
-          extras_css: |
-            svg { background: #0d1117; border-radius: 10px; }
-            h2, h3, section, .field, .row { color: #c9d1d9 !important; }
-            h2 a, h3 a { color: #58a6ff !important; }
-            .field svg { fill: #8b949e !important; }
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes

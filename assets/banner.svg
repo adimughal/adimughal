@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230">
   <style>
     .m{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
-    .t{fill:#58a6ff;font-size:44px;font-weight:700;letter-spacing:6px}
-    .s{fill:#3fb950;font-size:17px}
-    .d{fill:#8b949e;font-size:14px}
+    .t{fill:#1f6feb;font-size:44px;font-weight:700;letter-spacing:6px}
+    .s{fill:#0a7a6b;font-size:17px}
+    .d{fill:#4b6a88;font-size:14px}
     .type{animation:type 3.2s steps(44) .4s backwards}
     .cur{animation:blink 1s step-end infinite}
     @keyframes type{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
     @keyframes blink{50%{opacity:0}}
   </style>
-  <rect x="1" y="1" width="898" height="228" rx="12" fill="#0d1117" stroke="#30363d"/>
-  <path d="M1 13a12 12 0 0 1 12-12h874a12 12 0 0 1 12 12v23H1z" fill="#161b22"/>
+  <rect x="1" y="1" width="898" height="228" rx="12" fill="#f3f8ff" stroke="#cfe2ff"/>
+  <path d="M1 13a12 12 0 0 1 12-12h874a12 12 0 0 1 12 12v23H1z" fill="#eaf3ff"/>
   <circle cx="24" cy="19" r="6" fill="#ff5f56"/><circle cx="44" cy="19" r="6" fill="#ffbd2e"/><circle cx="64" cy="19" r="6" fill="#27c93f"/>
   <text x="450" y="24" text-anchor="middle" class="m d">adimughal — zsh — 120×32</text>
   <text x="450" y="110" text-anchor="middle" class="m t">ADI MUGHAL</text>
   <g class="type"><text x="450" y="150" text-anchor="middle" class="m s">&gt; founder · full-stack engineer · automation</text></g>
-  <rect x="682" y="136" width="10" height="18" fill="#3fb950" class="cur"/>
+  <rect x="682" y="136" width="10" height="18" fill="#0a7a6b" class="cur"/>
   <text x="450" y="190" text-anchor="middle" class="m d">PropTech · ERP · AI agents · WhatsApp · Meta Ads</text>
 </svg>
