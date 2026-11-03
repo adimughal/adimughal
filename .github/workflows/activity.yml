@@ -13,10 +13,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+
+      - name: Build feed from recent events
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          GH_USERNAME: adimughal
-          MAX_LINES: 6
-          COMMIT_MSG: "Update activity feed"
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          # Repo names only; private repo contents are never written.
+          gh api "/users/adimughal/events?per_page=100" --jq '
+            .[] | select(.repo.name != "adimughal/adimughal") |
+            if .type == "PushEvent" then "▸ pushed \(.payload.size // 1) commit(s) to \(.repo.name | split("/")[1])"
+            elif .type == "CreateEvent" and .payload.ref_type == "repository" then "▸ created repository \(.repo.name | split("/")[1])"
+            elif .type == "PullRequestEvent" then "▸ \(.payload.action) a pull request in \(.repo.name | split("/")[1])"
+            elif .type == "ReleaseEvent" then "▸ released \(.payload.release.tag_name) of \(.repo.name | split("/")[1])"
+            else empty end' | awk '!seen[$0]++' | head -6 > feed.txt
+          {
+            echo '<!--START_SECTION:activity-->'
+            echo '```bash'
+            cat feed.txt
+            echo '```'
+            echo '<!--END_SECTION:activity-->'
+          } > block.txt
+          awk 'BEGIN{while((getline l < "block.txt")>0) b=b l "\n"}
+               /<!--START_SECTION:activity-->/{printf "%s", b; skip=1; next}
+               /<!--END_SECTION:activity-->/{skip=0; next}
+               !skip' README.md > README.new && mv README.new README.md
+          rm feed.txt block.txt
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || { git commit -m "Update activity feed" && git push; }
