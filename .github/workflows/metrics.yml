@@ -29,8 +29,6 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_details: percentage
           plugin_languages_ignored: html, css
+          plugin_languages_indepth: no
+          plugin_languages_skipped: chatwoot
           plugin_lines: yes
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 30
-          plugin_habits_facts: no
