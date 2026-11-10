@@ -49,7 +49,6 @@ adimughal@github:~$ whoami
 ▸ pushed 1 commit(s) to reops
 ▸ pushed 1 commit(s) to ownerbase-app
 ▸ pushed 1 commit(s) to segregator
-▸ pushed 1 commit(s) to Airos.PRO
 ```
 <!--END_SECTION:activity-->
 
