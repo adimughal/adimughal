@@ -46,7 +46,6 @@ adimughal@github:~$ whoami
 ```bash
 ▸ pushed 1 commit(s) to trading-bot
 ▸ pushed 1 commit(s) to reops
-▸ pushed 1 commit(s) to Ingenious-website
 ```
 <!--END_SECTION:activity-->
 
