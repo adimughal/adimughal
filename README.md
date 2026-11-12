@@ -44,6 +44,7 @@ adimughal@github:~$ whoami
 
 <!--START_SECTION:activity-->
 ```bash
+▸ pushed 1 commit(s) to Infytech
 ▸ pushed 1 commit(s) to trading-bot
 ▸ pushed 1 commit(s) to reops
 ```
