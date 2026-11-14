@@ -44,6 +44,8 @@ adimughal@github:~$ whoami
 
 <!--START_SECTION:activity-->
 ```bash
+▸ released v1.1.0 of duplicate-finder
+▸ released v1.0.0 of duplicate-finder
 ▸ pushed 1 commit(s) to reops
 ▸ pushed 1 commit(s) to trading-bot
 ▸ pushed 1 commit(s) to Infytech
